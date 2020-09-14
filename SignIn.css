@@ -1,0 +1,88 @@
+.col-4 {
+  display: inline-block;
+  width: 40%;
+  height: 700px;
+  margin: 20px 75px;
+  vertical-align: top;
+}
+#left {
+  margin-left: 0;
+}
+#right {
+  margin-right: 0;
+}
+
+.grid {
+  width: 800px;
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+  border-color: antiquewhite;
+  border-radius: 12px;
+}
+
+#img {
+  height: 500px;
+  width: auto;
+  background-image: url(2.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 130px;
+  color: slategray;
+}
+
+label {
+  display: block;
+  margin: 30px 10px;
+  text-align: left;
+  font-style: italic;
+  font-weight: lighter;
+}
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  display: block;
+  margin-top: 5px;
+}
+#remember {
+  display: inline;
+}
+#button {
+  text-align: left;
+  margin: 20px 0 30px;
+}
+button {
+  color: rgb(128, 126, 126);
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 40px;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+#orlogin {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+}
+p {
+  color: slategray;
+}
+
+a {
+  text-decoration: underline;
+  color: slategray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="col-4" id="left">
+        <div>
+          <h1>Sign Up</h1>
+        </div>
+        <form>
+          <div>
+            <label>
+              <input type="text" id="name" placeholder="Your Name" required />
+            </label>
+            <label>
+              <input type="text" id="email" placeholder="Your Email" required />
+            </label>
+            <label>
+              <input type="text" id="password" placeholder="Password" required
+            /></label>
+            <label>
+              <input
+                type="text"
+                id="passwordRepeat"
+                placeholder="Repeat your password"
+                required
+            /></label>
+          </div>
+          <div>
+            <label>
+              <input type="radio" id="agree" required />
+              I agree all statements in
+              <span class="underline"
+                ><br />
+                Terms of service</span
+              >.
+            </label>
+          </div>
+        </form>
+        <div id="button">
+          <button id="register">Register</button>
+        </div>
+      </div>
+      <div class="col-4">
+        <div id="img"></div>
+        <div>
+          <a href="SignIn.html" class="underline">I am already a member</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

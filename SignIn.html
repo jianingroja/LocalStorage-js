@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="SignIn.css" />
+    <script type="text/javascript" src="SignIn.js"></script>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="col-4" id="left">
+        <div>
+          <div id="img"></div>
+        </div>
+        <div>
+          <p class="underline"><a href="index.html">Create an account</a></p>
+        </div>
+      </div>
+      <div class="col-4" id="right">
+        <div>
+          <h1>Sign In</h1>
+        </div>
+        <form>
+          <div>
+            <label for="username">
+              Username
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Mica Red"
+              />
+            </label>
+            <label for="password">
+              Password
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="radio" id="remember" />
+              <span>Remember me</span>
+            </label>
+          </div>
+          <!--
+          <div>
+            <input type="submit" value="Log in" />
+          </div>-->
+        </form>
+        <div id="button">
+          <button id="login">Log in</button>
+        </div>
+
+        <div id="orlogin">
+          <div>
+            <p>Or login with</p>
+          </div>
+          <div>
+            <img />
+            <img />
+            <img />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
