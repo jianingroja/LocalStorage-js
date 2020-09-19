@@ -2,10 +2,11 @@ window.onload = function () {
   var username = document.getElementById("username");
   var password = document.getElementById("password");
 
-  var login = document.getElementById("login");
-  login.addEventListener("click", Login);
+  var login = document.getElementById("form");
+  login.addEventListener("submit", Login);
 
-  function Login() {
+  function Login(event) {
+    event.preventDefault();
     console.log("working");
     if (username.value !== "" && password.value !== "") {
       if (localStorage.getItem("name") === password.value) {
